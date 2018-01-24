@@ -1,3 +1,7 @@
+language: node_js
+node_js:
+  - "node"
+  - "8"
 deploy:
   provider: npm
   email: tim.keiner@consol.de
