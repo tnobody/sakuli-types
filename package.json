@@ -1,15 +1,15 @@
 {
   "name": "sakuli-types",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "scripts": {
     "test": "tsc",
-    "generate-changelog": "github-changes -n ${npm_package_version} --use-commit-body",
+    "generate-changelog": "github-changes -n ${npm_package_version} -o tnobody --use-commit-body",
     "preversion": "npm test",
     "version": "npm run generate-changelog && git add CHANGELOG.md"
   },
   "keywords": [],
-  "author": "@tnobody",
+  "author": "tnobody",
   "license": "ISC",
   "types": "./types/sakuli/index.d.ts",
   "devDependencies": {
