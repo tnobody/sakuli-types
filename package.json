@@ -1,0 +1,12 @@
+{
+  "name": "sakuli-types",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "tsc"
+  },
+  "keywords": [],
+  "author": "@tnobody",
+  "license": "ISC",
+  "types": "./types/sakuli/index.d.ts"
+}
