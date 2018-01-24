@@ -1,0 +1,7 @@
+deploy:
+  provider: npm
+  email: tim.keiner@consol.de
+  api_key:
+    secure: 4krQ+IZr2cml3v7ZdhvnyolzKKPpOApy3+2qOI+aD+2DAgNCp5j8rUQObV09QyjmT6zCupNzaytWU8OWRsHWlKdrf8e/SDsAZrwy9Pl98xqUsgiHpAfB0bmCz8pUoa9/gZcoYrv1lAL/g1kBdm2LmWYxKhHu1YwoExDNfy13hiNqhxfjfXsDZnXpCZYZ4euFxs1ob94pz7YJPrWQsveLoVaCHN/U2x8YWAbWr78yhZjbH73/VJ2xHir6e7I1PjESZ8BUHk3BhyH6DHuyAooZO4251OYYvxwpMEK6NLJ/RfRgF2/3MVrsfCUIa/t+PraQTiaGokoZ96w22MRosGttAjpuAh4VbxexSDX/Lri9ksBFdnpdvErYrXE0cwAq19Qh8sA4uK0zJ+qIReJ52OHvdke5H7vv1j+6wxVEj6F/3NwGybaoqTsMuZULLZlY4mO+Y+1SCUJj2Pe66K87IYUi17pHUsdb80Jpi1wf/MMy7gmKiYF/n7w5Lgm7VPHSag5i5B19SUANa4ePt+2pOxMI99mt0ezWoWkq5/2YW2HlCIKZOU+zQdmoPYuVlfdBulSHvUXYe0Er8eYOmUK7ewTa4w5G4I4rIYxo6zV0aVo4u0lrofLD2nMNMn2cfNma8Og7UWtp1vd0S3c0SzVviizg2iiTJIDJAZr+o7G1sttjNHo=
+  on:
+    tags: true
