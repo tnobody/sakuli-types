@@ -1,6 +1,6 @@
 {
   "name": "sakuli-types",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "scripts": {
     "test": "tsc",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "types": "./types/sakuli/index.d.ts",
   "devDependencies": {
-    "typescript": "^2.6.2"
+    "typescript": "^2.6.2",
+    "github-changes": "^1.1.2"
   }
 }
